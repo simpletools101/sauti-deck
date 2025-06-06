@@ -5,11 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/joshuakiggundu/sauti",
   "author": "Kalema Pius",
+  "type": "module",
+  "module": "esnext",
   "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --config vite.config.js",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -17,6 +19,7 @@
   },
   "dependencies": {
     "date-fns": "^4.1.0",
-    "graphql-request": "^7.1.2"
+    "graphql-request": "^7.1.2",
+    "vite-plugin-static-copy": "^3.0.0"
   }
 }
