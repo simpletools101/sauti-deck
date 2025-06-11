@@ -1,0 +1,40 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "index.html"
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/portfolio.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/services.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/servicea",
+      "destination": "/servicea.html"
+    },
+    {
+      "source": "/serviceb",
+      "destination": "/serviceb.html"
+    },
+    {
+      "source": "/servicec",
+      "destination": "/servicec.html"
+    },
+    {
+      "source": "/serviced",
+      "destination": "/serviced.html"
+    }
+  ]
+}
